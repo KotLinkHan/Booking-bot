@@ -13,13 +13,17 @@ Telegram-бот для онлайн-запису клієнтів (барбер�
 Python 3.13, aiogram 3, SQLAlchemy 2 (async), PostgreSQL
 
 ## Запуск
-1. `git clone ...` і `pip install -r requirements.txt`
+1. `git clone https://github.com/KotLinkHan/Booking-bot.git
+cd Booking-bot
+   pip install -r requirements.txt`
 2. Створи базу в PostgreSQL
 3. Скопіюй `.env.example` у `.env` і заповни значення
 4. `python main.py`
 
 ## Скріншоти
-(тут 3-4 скріншоти)
+   ![Вибір часу](screenshots/time.png)
+    
+   ![Вибір послуги](screenshots/services.png)
 
 ## Можна адаптувати під
 Салони краси, масажні кабінети, репетиторів, лікарів, автосервіси.
